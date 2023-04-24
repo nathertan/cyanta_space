@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <div style="height: 310px;"></div>
+  <div style="height: 25vh;"></div>
   <header style="margin-bottom: 21px;">
     <img style="margin-right: 50px;" alt="Profile" class="pic" src="./assets/profile.png" width="218" height="218" />
 
