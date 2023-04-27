@@ -1,5 +1,5 @@
 <template>
-  <div class="greetings">
+  <div>
     <h1>Socials</h1>
     <h3>
       Find me here
