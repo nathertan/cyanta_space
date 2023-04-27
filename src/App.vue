@@ -17,7 +17,7 @@ import content from './components/content.vue';
     <input type="submit" value="More About Me" style="background-color: #262626; border: none; color: #ABABAB;  width: 705px; height: 38px; border-radius: 10px; font-size: 16px;">
   </form>
   
-  <div id="buffer" style="margin-bottom: 400px;"></div>
+  <div id="buffer" style="margin-bottom: 300px;"></div>
 
   <div id="content">
     <content/>
