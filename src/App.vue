@@ -1,54 +1,40 @@
 <script setup>
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
-import content from './components/content.vue';
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
+import content from "./components/content.vue";
 </script>
 
 <template>
-  <div style="height: 25vh;"></div>
-  <header style="margin-bottom: 21px;">
-    <img style="margin-right: 50px;" alt="Profile" class="pic" src="./assets/profile.png" width="218" height="218" />
+  <Header />
 
-    <div class="wrapper" style="margin-top: 21px;">
-      <Header/>
-    </div>
-  </header>
-  <form action="#content" style="display: flex; justify-content: center;">
-    <input type="submit" value="More About Me" style="background-color: #262626; border: none; color: #ABABAB;  width: 705px; height: 38px; border-radius: 10px; font-size: 16px;">
-  </form>
-  
-  <div id="buffer" style="margin-bottom: 300px;"></div>
-
-  <div id="content">
-    <content/>
-
-  </div>
-    
-  <footer>
-    <Footer/>
-    <div style="margin-bottom: 10vh;"></div>
-  </footer>
-
-  <footer>
-    
-  </footer>
+  <content />
+  <Footer />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<style>
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
 }
 
-.pic {
-  display: block;
-  margin: 0 auto 2rem;
+h2 {
+  color: #a7ffff;
+  top: -5px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-    
   }
 
   .pic {
