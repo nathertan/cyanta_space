@@ -1,20 +1,17 @@
 <template>
-  <img
-    style="justify-content: center; align-self: center"
-    alt="Profile"
-    class="pic"
-    src="../assets/profile.png"
-    width="218"
-    height="218"
-  />
+  <div class="pic">
+    <img alt="Profile" src="../assets/profile.png" class="picture" />
+  </div>
 
   <div class="greetings">
     <h1>Nathanael Dihyan</h1>
     <h2>Cyanta</h2>
     <h3>
       A freshgrad. Mostly self taught since Uni sucks. <br />
-      “I want a dream that everlasts.”
+      Hit me up for projects and fun ideas!
     </h3>
+  </div>
+  <div class="action-button">
     <form action="#content" style="display: flex; justify-content: center">
       <input
         type="submit"
@@ -23,7 +20,7 @@
           background-color: #262626;
           border: none;
           color: #ababab;
-          width: 705px;
+          width: 70vw;
           height: 38px;
           border-radius: 10px;
           font-size: 16px;
@@ -34,16 +31,27 @@
 </template>
 
 <style scoped>
-.pic {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 @media (max-width: 1024px) {
-  .greetings h1,
-  .greetings h2,
-  .greetings h3 {
+  .greetings {
     text-align: center;
+    margin-top: 1vh;
+  }
+
+  .pic {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 22vh;
+  }
+
+  .picture {
+    display: flex;
+    width: 18vh;
+  }
+
+  .action-button {
+    margin-top: 4vh;
+    margin-bottom: 30vh;
   }
 }
 </style>
